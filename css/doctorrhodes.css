@@ -1713,6 +1713,7 @@ figcaption {
   }
   .article.rhodes {
     padding-top: 24px;
+    padding-bottom: 24px;
   }
   .button {
     -webkit-box-pack: center;
