@@ -47,8 +47,9 @@ h5 {
 }
 
 h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
@@ -153,10 +154,12 @@ figcaption {
 
 .section.footer {
   position: static;
-  margin-top: 0px;
+  margin-top: 24px;
   margin-right: 0px;
+  margin-bottom: 16px;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: 4px;
+  padding-bottom: 8px;
   padding-right: 40px;
   padding-left: 40px;
   background-color: #007a7c;
@@ -216,7 +219,7 @@ figcaption {
 }
 
 .article.services {
-  margin-top: 40px;
+  margin-top: 16px;
   margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -690,7 +693,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 0px;
+  padding-top: 16px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1700,6 +1703,7 @@ figcaption {
   .section.footer {
     padding-right: 40px;
     padding-left: 40px;
+    padding-top: 16px;
   }
   .styleguide-block {
     text-align: center;
@@ -1934,12 +1938,12 @@ figcaption {
     background-repeat: no-repeat;
   }
   .heading.f4 {
-    margin-top: 16px;
+    margin-top: 8px;
     margin-bottom: 16px;
   }
   .heading.f5 {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
   }
   .body-2 {
     background-color: #fff8ee;
@@ -1991,14 +1995,15 @@ figcaption {
   .section.footer {
     padding-right: 40px;
     padding-left: 40px;
+    padding-top: 16px;
   }
   .article {
-    margin-top: 20px;
+    margin-top: 16px;
     margin-bottom: 0px;
     text-align: center;
   }
   .article.services {
-    margin-top: 40px;
+    margin-top: 16px;
     margin-bottom: 0px;
   }
   .article.rhodes {
@@ -2241,6 +2246,7 @@ figcaption {
   .section.footer {
     padding-right: 0px;
     padding-left: 0px;
+    padding-top: 16px;
   }
   .article {
     margin-top: 0px;
@@ -2249,7 +2255,7 @@ figcaption {
     padding-bottom: 0px;
   }
   .article.services {
-    margin-top: 40px;
+    margin-top: 16px;
     margin-bottom: 16px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Resting.png');
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Resting.png');
@@ -2420,4 +2426,3 @@ figcaption {
     display: inline-block;
   }
 }
-
